@@ -7,11 +7,11 @@ sudo apt install default-jre
 javac --version
 java --version
 
-echo downloading the burp suite from github repo
-# git clone https://github.com/MY_LINK_TO__BURP_SUITE
-
 echo installing terminal multiplexer
 sudo apt-get install tmux
 
 echo installing wireshark
 sudo apt-get install wireshark
+
+echo installin selenium
+sudo pip install selenium
